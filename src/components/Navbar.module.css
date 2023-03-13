@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 .branding {
     font-size: 2rem;
@@ -8,7 +7,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #3f3f46;
+    background-color: var(--clr-primary);
 }
 
 .nav-links {
@@ -24,7 +23,7 @@
 }
 
 .nav-links a:hover {
-    background-color: #5d5d69;
+    background-color: var(--clr-primary-hover);
 }
 
 .nav svg {
@@ -68,6 +67,6 @@
    .nav-links a{
         padding: .5rem;
         text-align: center;
-        background-color: #5d5d69;
+        background-color: var(--clr-primary-hover);
    }
 }
