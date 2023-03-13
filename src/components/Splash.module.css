@@ -5,7 +5,7 @@
     align-items: center;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
-    padding: 5rem 5rem;
+    padding: 5rem;
     background: linear-gradient( rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85) ), url(https://wallpaperaccess.com/full/8351142.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -13,8 +13,8 @@
 }
 
 .main p {
-    width: 45ch;
     line-height: 1.7;
+    width: 37ch;
 }
 
 .main button {
@@ -35,4 +35,14 @@
 
 .highlighted {
     color: var(--clr-secondary);
+}
+
+@media screen and (max-width: 600px) {
+    .main {
+        padding: 2rem;
+    }
+
+    .main p {
+        width: 30ch;
+    }
 }
