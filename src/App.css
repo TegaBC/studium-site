@@ -1,8 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+:root {
+    --clr-primary: #1D1D1F;
+    --clr-primary-hover: #2b2b2c;
+    --clr-secondary: #be85ff;
+    --clr-secondary-hover: #8f65bf;
+}
 
 body {
     margin: 0;
-    background-color: #27272a;
+    background-color: var(--clr-primary);
     color: white;
     font-family: 'Tilt Warp', cursive;
 }
