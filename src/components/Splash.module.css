@@ -23,10 +23,10 @@
     padding: 1rem;
     border-radius: 15px;
     color: white;
-    background-color: var(--clr-secondary);
+    background-color: var(--clr-primary);
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    border: 2px solid white;
+    border: 2px solid var(--clr-secondary);
 }
 
 .main button:hover{
