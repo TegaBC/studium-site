@@ -11,7 +11,7 @@ const Splash = () => {
                     for <span className={Styles.highlighted}>optimizing</span> work output and 
                     <span className={Styles.highlighted}> maximising</span> rewards to the user.
                 </p>
-                <div className="button-wrapper">
+                <div>
                     <button>Invite To Server</button>
                 </div>
             </div>
