@@ -27,6 +27,7 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     border: 2px solid var(--clr-secondary);
+    cursor: pointer;
 }
 
 .main button:hover{
