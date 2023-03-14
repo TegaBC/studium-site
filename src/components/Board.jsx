@@ -4,7 +4,7 @@ function showData(info, pos) {
     return (
         <div className={Styles.placement}>
             <p>{pos+1}</p>
-            <h3>{info[0]}</h3>
+            <h4>{info[0]}</h4>
             <p>{info[1]}</p>
         </div>)
 }
